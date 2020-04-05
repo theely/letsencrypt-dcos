@@ -12,7 +12,7 @@ Clone (or manually copy) this repo, and modify the [letsencrypt-dcos.json](letse
  - The Marathon API endpoint (in `MARATHON_URL`)
  - The Marathon-lb app ID (in `MARATHON_LB_ID`)
 
-This app also now supports specifying the Lets Encrypt server, for situations where users may be running their own Boulder server on an internal network, or for using the Lets Encrypt staging servers for testing. By default it is set to the Lets Encrypt staging server, so for production use change the LETSENCRYPT_SERVER_URL variable - if you are using the Lets Encrypt servers the default should be https://acme-v01.api.letsencrypt.org/directory
+This app also now supports specifying the Lets Encrypt server, for situations where users may be running their own Boulder server on an internal network, or for using the Lets Encrypt staging servers for testing. By default it is set to the Lets Encrypt staging server, so for production use change the LETSENCRYPT_SERVER_URL variable - if you are using the Lets Encrypt servers the default should be https://acme-v02.api.letsencrypt.org/directory
 
 Now launch the `letsencrypt-dcos` Marathon app:
 
